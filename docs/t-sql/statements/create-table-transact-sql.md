@@ -976,7 +976,7 @@ Column and table indexes can be specified as part of the CREATE TABLE statement.
   
  Prefix local temporary table names with single number sign (#*table_name*), and prefix global temporary table names with a double number sign (##*table_name*).  
   
- SQL statements reference the temporary table by using the value specified for *table_name* in the CREATE TABLE statement, for example####:  
+ SQL statements reference the temporary table by using the value specified for *table_name* in the CREATE TABLE statement, for example:  
   
 ```sql  
 CREATE TABLE #MyTempTable (cola INT PRIMARY KEY);  
